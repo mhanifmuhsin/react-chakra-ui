@@ -1,7 +1,9 @@
-import { Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 
-export default function SideNavigation(){
-    return(
-        <Text color={"white"}>Side Navigation</Text>
-    )
+export default function SideNavigation() {
+  return (
+    <Box boxShadow="md" h="100vh">
+      <Text>Side Navigation</Text>
+    </Box>
+  );
 }
